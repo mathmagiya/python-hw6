@@ -1,3 +1,4 @@
+from abc import ABC, abstractmethod
 import itertools
 #--
 class Product:
@@ -5,7 +6,7 @@ class Product:
         self.name = name
         self.price = price
 
-class Vending:
+class Vending(IVending):
     def __init__(self,jsonMachine):
         self.id = jsonMachine["id"]
         self.model = jsonMachine["model"]
