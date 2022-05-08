@@ -1,0 +1,41 @@
+{
+  "machines": [
+    {
+      "id": 1,
+      "model": "gm 9000",
+      "capacity":10,
+      "money": 100,
+      "items": [
+        {
+          "name": "potato",
+          "quantity": 2,
+          "price": 9
+        }
+      ],
+      "last_modified": "2021/11/01 09:39",
+      "modified_by": "david",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "model": "gm 1000",
+      "capacity":100,
+      "money": 1000,
+      "items": [
+        {
+          "name": "potato",
+          "quantity": 1,
+          "price": 9
+        },
+        {
+          "name": "chips",
+          "quantity": 1,
+          "price": 2
+        }
+      ],
+      "last_modified": "2021/11/01 09:39",
+      "modified_by": "david",
+      "status": "active"
+    }
+  ]
+}
