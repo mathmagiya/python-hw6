@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
+from vending import Vending
 
-class Vending(ABC):
+class IVending(ABC):
     @abstractmethod
     def addItems(self, Product):
         if len(self.offerings)== self.capacity:
